@@ -10,7 +10,11 @@ The application is deployed here: http://adri1mtl.pythonanywhere.com/
 
 You can do a count request: http://adri1mtl.pythonanywhere.com/count?dog_name=Buddy&gender=f
 
-Run the test script with "READY_TEST_BASE_URL=http://adri1mtl.pythonanywhere.com python apitest.py" in bash. One test will fail because of the header "Content-Type	application/json; charset=UTF-8". The test wants "application/json" only. The other tests should pass.
+Run the test script with "READY_TEST_BASE_URL=http://adri1mtl.pythonanywhere.com python apitest.py" in bash. 
+
+One test will fail because of the header "Content-Type	application/json; charset=UTF-8". The test wants "application/json" only. I wonder if it is a problem or not since "JSON text shall be encoded in Unicode. The default encoding is UTF-8." according to RFC4627 (https://www.ietf.org/rfc/rfc4627.txt).
+
+The other tests should succeed.
 
 Have a nice day,
 
