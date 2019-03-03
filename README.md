@@ -10,3 +10,7 @@ The application is deployed here: http://adri1mtl.pythonanywhere.com/
 
 You can do a count request: http://adri1mtl.pythonanywhere.com/count?dog_name=Buddy&gender=f
 
+Have a nice day,
+
+Adrien
+
