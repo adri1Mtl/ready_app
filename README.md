@@ -2,7 +2,7 @@
 
 In order to run this locally, you need to install tornado: pip install tornado
 
-You will also need to download the Dogs of NYC CSV file and put it in the same location as index.py. 
+You will also need to download the Dogs of NYC CSV file, rename it "dogs.csv" and put it in the same location as index.py. 
 
 Run "python index.py" and go to "localhost:5000". You should see the application running.
 
