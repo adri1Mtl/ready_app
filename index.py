@@ -1,6 +1,5 @@
 import tornado.ioloop
 import tornado.web
-from tornado.httputil import HTTPHeaders
 import csv
 
 class MainHandler(tornado.web.RequestHandler):
